@@ -1726,3 +1726,7 @@ width: 15%;
    color: white;
 
 }
+
+#map {
+  border-radius: 0px;
+}

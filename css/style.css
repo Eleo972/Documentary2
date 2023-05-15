@@ -45,7 +45,7 @@ h2 {
 }
 
 p {
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 .btn {
@@ -1402,6 +1402,7 @@ iframe {
 
 .description-meal p {
   color: #a99c92;
+  font-size: 15px;
 }
 
 #video-intro {

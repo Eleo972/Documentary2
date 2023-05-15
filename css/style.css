@@ -480,12 +480,7 @@ p {
 #fh5co-sayings {
   padding: 7em 0;
 }
-@media screen and (max-width: 1200px) {
-  #fh5co-sayings {
-    /*padding: 5em 0;*/
-    /*margin-top: 300px;*/
-  }
-}
+
 #fh5co-sayings .flexslider .slides li {
   font-size: 40px;
  line-height: 1.5em;
@@ -1551,3 +1546,97 @@ button:active {
   margin: 0;
   padding: 0;
 }
+
+.mfp-hide {
+  display: none!important;
+}
+.test {
+  padding: 20px 40px;
+  border-color: #f3f3f3;
+  font-size: 17px;
+  font-size: 1.7rem;
+  font-family: "museo-sans", Arial, Verdana;
+  font-weight: 500;
+  margin-top: 40px;
+  display: inline-block;
+}
+.test {
+  border: 2px solid #fff;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 0.15s ease-in-out;
+}
+.test .fa {
+  margin-left: 20px;
+}
+.test:hover {
+  background-color: rgba(0,0,0,0.7); 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+}
+
+.btn {
+  position: relative;
+  cursor: pointer;
+
+}
+
+.btn .play {
+  position: relative;
+  width: 300px;
+  height: 50px;
+  background: #222;
+  border: 1px solid white;
+  transition: 0.5s;
+  text-align: center;
+  line-height: 50px;
+}
+
+.btn.active .play {
+  box-shadow: 0 0 0 150vh #130d08;
+  opacity: 99%;
+  z-index: 100;
+}
+
+.clip {
+  position: fixed;
+  background: #130d08;
+  opacity: 99%;
+  top: 50%;
+  transform : translate(50%, 50%) scale(0);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  transition: 0.5s;
+}
+
+.clip.active {
+  transition-delay: 0.5s;
+ transform : translate(5%, -50%) scale(1);
+ box-shadow: 0 0 0 150vh #130d08;
+ opacity: 99%;
+}
+
+.clip video {
+  max-width: 900px;
+}
+
+.clip .close {
+  position: relative;
+  color: white;
+  top: -230px;
+  font-weight: 200;
+  right: -40px;
+  cursor: pointer;
+  font-size: 50px;
+}
+
+

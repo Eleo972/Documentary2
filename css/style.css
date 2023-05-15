@@ -19,6 +19,7 @@ body {
   font-weight: 300;
   line-height: 2;
   color: #5e493a;
+  overflow-x: hidden;
 }
 body.fh5co-overflow {
   overflow-x: auto;
@@ -479,13 +480,13 @@ p {
 @media screen and (max-width: 1200px) {
   #fh5co-about .fh5co-bg {
     width: 100%;
-    min-height: 600px;
+    /*min-height: 600px;*/
   }
 }
 @media screen and (max-width: 768px) {
   #fh5co-about .fh5co-bg {
     width: 100%;
-    min-height: 600px;
+    /*min-height: 600px;*/
   }
 }
 
@@ -500,7 +501,7 @@ p {
 #fh5co-sayings .flexslider .slides li blockquote {
   padding-left: 0;
   border-left: none;
-  
+
 }
 /*@media screen and (max-width: 768px) {
   #fh5co-sayings .flexslider .slides li blockquote {
@@ -530,13 +531,13 @@ p {
 #fh5co-sayings .flexslider .flex-control-paging {
   position: relative;
 }
-#fh5co-sayings .flexslider .flex-control-paging.flex-control-nav {
+/*#fh5co-sayings .flexslider .flex-control-paging.flex-control-nav {
   bottom: -70px;
-}
+}*/
 @media screen and (max-width: 768px) {
-  #fh5co-sayings .flexslider .flex-control-paging.flex-control-nav {
+  /*#fh5co-sayings .flexslider .flex-control-paging.flex-control-nav {
     bottom: -60px;
-  }
+  }*/
 }
 #fh5co-sayings .flexslider .flex-control-paging li a {
   width: 14px;
@@ -1688,3 +1689,20 @@ a:hover {
   width: 100px;
   height: 100px;
 }
+#mySidebar a{
+  color:red;
+  display: block;
+}
+#mySidebar{
+width: 15%;
+}
+
+#mySidebar a:hover {
+  background-color: #555;
+  color: white;
+}
+#openNav {
+    position: fixed;
+    height: 60px;
+    z-index: 10;
+    width: 70px;

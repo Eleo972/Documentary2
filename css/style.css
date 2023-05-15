@@ -1680,3 +1680,11 @@ a:hover {
   border-radius: 0px;
   background: #130d08 url(../images/wood_1.png) repeat;
 }
+
+#next {
+  position: relative;
+  float: right;
+  bottom: 330px;
+  width: 100px;
+  height: 100px;
+}

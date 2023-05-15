@@ -494,11 +494,11 @@ p {
   padding-left: 0;
   border-left: none;
 }
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
   #fh5co-sayings .flexslider .slides li blockquote {
     padding: 0 20px;
   }
-}
+}*/
 #fh5co-sayings .flexslider .slides li blockquote p {
   font-size: 22px;
   line-height: 1.5;

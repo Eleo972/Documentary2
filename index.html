@@ -58,9 +58,12 @@
 							<h1 class="to-animate">L'histoire à travers le goût</h1>
 							<h2 class="to-animate">Le Buddaejiggae et le Milmeyon</h2>
 							<div class="choix">
-								<button style="font-family: 'Times New Roman', Times, serif;">Voir le documentaire en entier</button>
-								<button style="font-family: 'Times New Roman', Times, serif;">Voir le documentaire interactif</button>
-							  </div>
+								<div class="btn">
+									<div class="play">Voir le documentaire en entier
+									</div>
+									<div></div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -68,6 +71,28 @@
 			   	<li style="background: url(images/wood_1.png) repeat;"></li>
 			  	</ul>
 			</div>
+
+			<div class="clip">
+				<video src="video/DSCF2355.MP4" controls></video>
+				<b class="close">close</b>
+			</div>
+			<script>
+				let clip = document.querySelector('.clip');
+				let btn = document.querySelector(".btn");
+				let close = document.querySelector(".close");
+				let video = document.querySelector('video');
+				btn.onclick = function() {
+					btn.classList.add('active');
+					clip.classList.add('active');
+					video.play();
+					video.currentTime = 0;
+				}
+				close.onclick = function() {
+					btn.classList.remove('active');
+					clip.classList.remove('active');
+					video.pause();
+				}
+			</script>s
 
 		</div>
 		<div id="video-intro" data-section="about" >
@@ -88,7 +113,7 @@
 				<div class="description-meal">
 					<div id="desc1">
 					<h2>Le Milmeyon</h2>
-					<p>Lorem ipsum dolor blablablablabblablalablablasit amet, consectetur adipiscing elit. Sed sit amet vestibulum nibh. Ut gravida at sapien nec scelerisque. Sed sit amet imperdiet velit. Duis quis congue ex, dignissim rhoncus ex. Proin ut interdum dui. </p>
+					<p>Lorem ipsum dolor blablablablablablablasit amet, consectetur adipiscing elit. Sed sit amet vestibulum nibh. Ut gravida at sapien nec scelerisque. Sed sit amet imperdiet velit. Duis quis congue ex, dignissim rhoncus ex. Proin ut interdum dui. </p>
 					</div>
 					<iframe frameborder="0" class="juxtapose" width="400px" height="389px" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=751e55d8-ee2e-11ed-b5bd-6595d9b17862"></iframe>
 					<div id="desc2">

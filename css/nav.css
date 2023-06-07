@@ -14,7 +14,7 @@
 .w3-sidebar {
     height: 100vh;
     background-color: black;
-    opacity: 50%;
+    opacity: 70%;
     position: fixed!important;
     z-index: 10;
     overflow-x: hidden; /* Disable horizontal scroll */

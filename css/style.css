@@ -228,6 +228,7 @@ p {
 @media screen and (max-width: 992px) {
   #fh5co-home .flexslider .fh5co-text h1 {
     font-size: 80px;
+    margin-bottom: 0;
   }
 }
 #fh5co-home .flexslider .fh5co-text h2 {
@@ -241,10 +242,12 @@ p {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  margin-bottom: 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-home .flexslider .fh5co-text h2 {
     font-size: 20px;
+    margin-bottom: 0;
   }
 }
 #fh5co-home .flexslider .fh5co-text h2 span {
@@ -1351,7 +1354,7 @@ p {
 }
 
 .row-padded {
-  padding-bottom: 40px;
+  padding-bottom: 0px;
 }
 
 h1 {

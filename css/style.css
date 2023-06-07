@@ -1706,9 +1706,9 @@ width: 15%;
 }
 #openNav {
     position: fixed;
-    height: 60px;
+    height: 40px;
     z-index: 10;
-    width: 70px;
+    width: 40px;
 }
 
 #langues {

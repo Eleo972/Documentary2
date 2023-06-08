@@ -1390,6 +1390,11 @@ iframe {
   justify-content: space-between;
 }
 
+.description-meal iframe {
+  width: 400px; 
+  height: 389px;
+}
+
 .description-meal p {
   color: #a99c92;
   font-size: 15px;
@@ -1680,12 +1685,13 @@ a:hover {
   height: 60px;
 }
 #mySidebar a{
-  color:red;
+  color:white;
   display: block;
 }
 #mySidebar{
 width: 15%;
 }
+
 
 #mySidebar a:hover {
   background-color: #555;
@@ -1703,13 +1709,14 @@ width: 15%;
   background-repeat: repeat;
 }
 
+
 #langues ul {
   overflow-x:hidden;
    white-space:nowrap;
      margin-bottom: 0px;
 }
 
-#langues ul li {
+#langues li {
    display:inline;
    float: right;
    margin-right: 20px;
@@ -1720,4 +1727,82 @@ width: 15%;
 #map {
   border-radius: 0px;
 }
+
+
+@media screen and (max-width: 900px) {
+  #next {
+    width: 50px;
+    height: 50px;
+  }
+
+  #video-intro {
+    height: 900px;
+  }
+
+  .description-meal h2 {
+    font-size: 16px;
+  }
+
+  .description-meal p {
+    font-size: 12px;
+  }
+
+  .description-meal iframe {
+      width: 305px;
+      height: 292px;
+      margin-bottom: 300px;
+  }
+
+  .buttons {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #next {
+    width: 40px;
+    height: 40px;
+  }
+
+  #video-intro {
+    height: 1000px;
+  }
+
+  .description-meal h2 {
+    font-size: 13px;
+  }
+
+  .description-meal p {
+    font-size: 11px;
+  }
+
+  .description-meal iframe {
+      width: 305px;
+      height: 292px;
+      margin-bottom: 300px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #next {
+    width: 30px;
+    height: 30px;
+  }
+
+  .description-meal h2 {
+    font-size: 10px;
+  }
+
+  .description-meal p {
+    font-size: 10px;
+  }
+
+  .description-meal iframe {
+      width: 305px;
+      height: 292px;
+      margin-bottom: 400px;
+  }
+
+}
+
 

@@ -488,7 +488,7 @@ p {
 }
 
 #fh5co-sayings {
-  padding: 7em 0;
+  padding: 6em 0;
 }
 
 #fh5co-sayings .flexslider .slides li {
@@ -1726,6 +1726,10 @@ width: 15%;
 
 #map {
   border-radius: 0px;
+}
+ 
+.flex-viewport {
+ height: 300px;
 }
 
 

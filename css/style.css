@@ -1732,6 +1732,26 @@ width: 15%;
  height: 300px;
 }
 
+#about-us {
+  background: #130d08 url(../images/wood_1.png) repeat;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: #a99c92;
+  
+}
+
+#about-us h2 {
+  text-align: center;
+  
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 
 @media screen and (max-width: 900px) {
   #next {
